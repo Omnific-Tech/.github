@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Omnific Tech</title>
+  <desc id="desc">Independent software projects. A purple geometric network on a dark background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13101e"/><stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="820" y1="70" x2="1090" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c4a1ff"/><stop offset="1" stop-color="#7132bd"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#a78bfa" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="16" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="15" stroke="#a78bfa" stroke-opacity=".2"/>
+  <rect x="56" y="58" width="32" height="4" rx="2" fill="#a78bfa"/>
+  <text x="52" y="176" fill="#f5f0ff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Omnific Tech</text>
+  <text x="56" y="221" fill="#c8c4d4" font-family="Arial, Helvetica, sans-serif" font-size="24">Independent software projects.</text>
+  <text x="56" y="287" fill="#988ba9" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">OMNIFIC.DEV</text>
+  <g stroke="url(#accent)" stroke-width="2" stroke-linejoin="round">
+    <path d="M948 65 1058 128 1058 254 948 317 838 254 838 128Z" opacity=".2"/>
+    <path d="M948 91 1036 141 1036 241 948 291 860 241 860 141Z" opacity=".45"/>
+    <path d="m948 118 65 37v74l-65 37-65-37v-74Z" fill="#8b5cf6" fill-opacity=".06"/>
+    <path d="m883 155 65 38 65-38M948 193v73M948 118v-27M1013 155l23-14M1013 229l23 12M948 266v25M883 229l-23 12M883 155l-23-14"/>
+    <path d="M838 128 790 100h-62M1058 128l48-28h50M1058 254l48 28h50M838 254l-48 28h-62" opacity=".3"/>
+  </g>
+  <g fill="#c4a1ff">
+    <circle cx="948" cy="118" r="4"/><circle cx="1013" cy="155" r="4"/><circle cx="1013" cy="229" r="4"/>
+    <circle cx="948" cy="266" r="4"/><circle cx="883" cy="229" r="4"/><circle cx="883" cy="155" r="4"/>
+    <circle cx="948" cy="193" r="5"/>
+  </g>
+</svg>
