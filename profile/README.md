@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Omnific-Tech/.github/main/profile/assets/banner.svg" alt="Omnific Tech — Software built around real problems" width="100%" />
+  <img src="https://raw.githubusercontent.com/Omnific-Tech/.github/main/profile/assets/banner.svg" alt="Omnific Tech — Practical software. Thoughtful engineering." width="100%" />
 </p>
 
 [Website](https://omnific.dev/) · [Nexus Terminal](https://nexus.omnific.dev/welcome) · [Aeon](https://app.aeon.omnific.dev/) · [Portfolio](https://portfolio.omnific.dev/)
 
-Omnific Tech is an independent software studio by [Jimly Firdaus](https://portfolio.omnific.dev/), building practical products that turn complex information into something useful.
+Omnific Tech builds products that turn complex information into practical tools.
 
-The work begins with problems encountered in engineering and everyday life, then develops into tools for people with similar needs. The focus is on clear information, reliable systems, and products that remain useful in practice.
+Founded by [Jimly Firdaus](https://portfolio.omnific.dev/), Omnific Tech develops software shaped by real engineering and everyday needs. Each product starts with a firsthand problem and is built to help others facing similar challenges.
+
+The focus is on clear information, reliable systems, and products that remain useful in practice.
 
 ## Products
 
