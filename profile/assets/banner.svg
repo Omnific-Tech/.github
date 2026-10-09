@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Omnific Tech</title>
-  <desc id="desc">Independent software projects. A purple geometric network on a dark background.</desc>
+  <desc id="desc">Software built around real problems. A purple geometric network on a dark background.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
       <stop stop-color="#13101e"/><stop offset="1" stop-color="#0d1117"/>
@@ -17,7 +17,7 @@
   <rect x="1" y="1" width="1198" height="338" rx="15" stroke="#a78bfa" stroke-opacity=".2"/>
   <rect x="56" y="58" width="32" height="4" rx="2" fill="#a78bfa"/>
   <text x="52" y="176" fill="#f5f0ff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Omnific Tech</text>
-  <text x="56" y="221" fill="#c8c4d4" font-family="Arial, Helvetica, sans-serif" font-size="24">Software projects and developer tools.</text>
+  <text x="56" y="221" fill="#c8c4d4" font-family="Arial, Helvetica, sans-serif" font-size="24">Software built around real problems.</text>
   <text x="56" y="287" fill="#988ba9" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">omnific.dev</text>
   <g stroke="url(#accent)" stroke-width="2" stroke-linejoin="round">
     <path d="M948 65 1058 128 1058 254 948 317 838 254 838 128Z" opacity=".2"/>
