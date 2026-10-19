@@ -18,19 +18,38 @@ The flagship product: a financial market intelligence platform bringing market d
 
 Automated data ingestion, AI research, and API/MCP integrations connect the terminal to a wider research workflow. Built with Go, Python, React, PostgreSQL, and Redis.
 
-[Discover Nexus Terminal](https://nexus.omnific.dev/welcome) · [Open terminal](https://nexus.omnific.dev/) · [Documentation](https://docs.omnific.dev/)
+[Discover Nexus Terminal](https://nexus.omnific.dev/welcome) · [Open terminal](https://nexus.omnific.dev/) · [Android APK](https://github.com/Omnific-Tech/nexus-android/releases/latest) · [Android source](https://github.com/Omnific-Tech/nexus-android) · [Documentation](https://docs.omnific.dev/)
 
 ### Aeon
 
-An earthquake awareness application for Indonesia, powered by BMKG data. Follow recent events, explore the map, and choose the provinces and magnitudes that matter to you.
+Earthquake and air quality awareness for Indonesia, powered by BMKG data. Follow recent earthquakes, explore PM2.5 monitoring stations, read official haze updates, and choose the provinces and thresholds that matter to you.
 
 Available on the web and Android, with configurable push notifications.
 
-[Open Aeon](https://app.aeon.omnific.dev/)
+[Open Aeon](https://app.aeon.omnific.dev/) · [Android APK](https://github.com/Omnific-Tech/aeon-android/releases/latest) · [Android source](https://github.com/Omnific-Tech/aeon-android)
 
 ## Development & Open Source
 
-Most production code is private. Reusable tools, templates, and infrastructure are published selectively as they mature.
+Reusable tools and product-independent infrastructure, built from our production needs. Product Android repositories contain their APK wrappers and release pipelines; the product web applications and backends are maintained separately.
+
+### Herald notification toolkit
+
+| Repository | What it provides |
+| --- | --- |
+| [herald-oss](https://github.com/Omnific-Tech/herald-oss) | Product-agnostic notification broker: authenticated publishing, routing, retries, and acknowledgements for Android FCM and browser Web Push |
+| [herald-android-oss](https://github.com/Omnific-Tech/herald-android-oss) | Reusable Android notification core and Trusted Web Activity template with app-specific identity and branding |
+| [herald-web-oss](https://github.com/Omnific-Tech/herald-web-oss) | Browser Web Push client and the page side of the Android subscription bridge |
+| [aeon-android](https://github.com/Omnific-Tech/aeon-android) | Aeon's Android app configuration, vendored core, and signed APK distribution |
+| [nexus-android](https://github.com/Omnific-Tech/nexus-android) | Nexus Terminal's Android app configuration, vendored core, and signed APK distribution |
+
+Herald handles delivery; each product owns its content, user experience, and notification preferences. Android releases include checksums, signing certificate fingerprints, and dependency notices alongside the APK.
+
+### Developer tools
+
+- [Vesta](https://github.com/Omnific-Tech/vesta): experimental, opt-in keepalives for idle Claude Code and Codex sessions.
+- [Go Periodic](https://github.com/Omnific-Tech/go-periodic): restart-safe periodic background tasks for Go.
+- [Go API + MCP template](https://github.com/Omnific-Tech/go-api-mcp-template): a reusable API service with authenticated MCP support.
+- [React + Vite template](https://github.com/Omnific-Tech/react-vite-template): a starting point for React, TypeScript, and Tailwind applications.
 
 ---
 
